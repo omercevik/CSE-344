@@ -9,3 +9,9 @@ Homework 02 -> Calculating Folder and Files Dimensions in a Folder Recursively U
                
                Usage : ./buNeDuFork <DirectoryName>
                        ./buNeDuFork -z <DirectoryName>
+                       
+                       
+Homework 04 -> Calculating Folder and Files Dimensions in a Folder Recursively Using FIFO and Pipe
+               
+               Usage : ./buNeDuFPF <DirectoryName>
+                       ./buNeDuFPF -z <DirectoryName>
