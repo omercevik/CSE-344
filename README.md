@@ -1,4 +1,6 @@
-# System Programming
+# Gebze Technical University
+# Computer Engineering
+# CSE-344 System Programming
 
 Homework 01 -> Calculating Folder and Files Dimensions in a Folder Recursively
                
