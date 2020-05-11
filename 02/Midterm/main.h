@@ -1,3 +1,11 @@
+/*
+    CSE 344 Systems Programming
+    Midterm Project
+    main.h
+    Omer CEVIK
+    161044004
+*/
+
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -21,12 +29,12 @@ struct _sem
     sem_t semSupplier;
     sem_t semCook;
     sem_t semStudent;
+    sem_t semCookStudent;
 };
 
 typedef struct _sem Semaphore;
 
 void getArguments(int argc, char *argv[], int* Ncooks, int* Mstudents, int* Ttables, int* counterSizeS, int* L, char** filePath);
-void getArgumentsBonus(int argc, char *argv[], int* Ncooks, int* Ttables, int* counterSizeS, int* L, int* Ustudents, int* Gstudents);
 void createRandomInputFile(char* filePath, int LxM3);
 int checkValuesForK(int Ncooks, int Mstudents, int Ttables, int counterSizeS, int L);
 void writeToSharedMemory(char* whichShdMem, int counterP, int counterC, int counterD);

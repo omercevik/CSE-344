@@ -1,3 +1,11 @@
+/*
+    CSE 344 Systems Programming
+    Midterm Project
+    fileOperations.c
+    Omer CEVIK
+    161044004
+*/
+
 #include "main.h"
 
 void readInputFile(char* filePath, int PCD, int* randomValues)
@@ -10,7 +18,7 @@ void readInputFile(char* filePath, int PCD, int* randomValues)
     {
         char str[256];
         sprintf(str,"Input Open Error Number %d\n", errno);
-        write(STDOUT_FILENO, str, strlen(str));
+        write(STDERR_FILENO, str, strlen(str));
         perror("Program can not open input file!");
         exit(EXIT_FAILURE);
     }
@@ -18,7 +26,7 @@ void readInputFile(char* filePath, int PCD, int* randomValues)
     {
         char str[256];
         sprintf(str,"Input File Size, Error Number %d\n",errno);
-        write(STDOUT_FILENO, str, strlen(str));
+        write(STDERR_FILENO, str, strlen(str));
         perror("Input file doesn't have enough input!");
         exit(EXIT_FAILURE);
     }
@@ -37,7 +45,7 @@ void createRandomInputFile(char* filePath, int LxM3)
     {
         char str[256];
         sprintf(str,"Input Create Open Error Number %d\n", errno);
-        write(STDOUT_FILENO, str, strlen(str));
+        write(STDERR_FILENO, str, strlen(str));
         perror("Program can not open input file!");
         exit(EXIT_FAILURE);
     }

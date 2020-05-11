@@ -1,3 +1,11 @@
+/*
+    CSE 344 Systems Programming
+    Midterm Project
+    shdmem.c
+    Omer CEVIK
+    161044004
+*/
+
 #include "main.h"
 
 void readSharedMemory(char* whichShdMem, int* counterP, int* counterC, int* counterD)
