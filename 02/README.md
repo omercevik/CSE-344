@@ -6,6 +6,7 @@ GNU GCC C Systems Programming
 
 Working Operating System:
 
+        Linux Ubuntu 18.04.3 LTS
         Linux Ubuntu 20.04 LTS
         Terminal Command Line
 
@@ -35,3 +36,6 @@ Midterm -> Simulation the Student Mess Hall of An University
            
            Usage : make
            
+Homework 04 -> Cooking Güllaç Using Semaphores and POSIX Threads
+
+           Usage : make
