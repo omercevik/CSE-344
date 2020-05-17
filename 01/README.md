@@ -1,6 +1,6 @@
 # Gebze Technical University
 # Computer Engineering
-# CSE-344 System Programming
+# CSE-344 Systems Programming
 
 GNU GCC C System Programming
 
