@@ -39,3 +39,7 @@ Midterm -> Simulation the Student Mess Hall of An University
 Homework 04 -> Cooking Güllaç Using Semaphores and POSIX Threads
 
            Usage : make
+                      
+Homework 05 -> Serving to Clients Flowers With Florists Using POSIX Mutex & Condition Variables and POSIX Threads
+
+           Usage : make
