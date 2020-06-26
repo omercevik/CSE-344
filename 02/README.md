@@ -43,3 +43,9 @@ Homework 04 -> Cooking Güllaç Using Semaphores and POSIX Threads
 Homework 05 -> Serving to Clients Flowers With Florists Using POSIX Mutex & Condition Variables and POSIX Threads
 
            Usage : make
+
+Final -> Server Client Communication with Sockets
+           
+           Usage      : make
+           Server Run : make rs
+           Client Run : make rc
